@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import { Home, Users, FileText, Calendar as CalendarIcon, HelpCircle } from "lucide-react";
 import { Routes, Route, Link } from "react-router-dom";
@@ -97,6 +98,15 @@ function App() {
 
       </div>
 
+=======
+import React from 'react';
+import AuthPage from './AuthPage';
+
+function App() {
+  return (
+    <div>
+      <AuthPage />
+>>>>>>> 63545f2a59be7f10db2a7e920844caaf7cea4ed8
     </div>
   );
 }
